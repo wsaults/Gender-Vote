@@ -37,7 +37,7 @@ h2 {
   font-size: 70px;
   font-family: 'Arizonia', cursive;
   font-weight: 100;
-  margin-top: -55px; 
+  margin-top: -75px; 
 }
 
 h3 {
@@ -45,13 +45,14 @@ h3 {
   font-size: 50px;
   font-family: 'Acme', sans-serif;
   letter-spacing: 2px;
+  margin-top: -10px;
 }
 
 input {
-  font-size: 56px;
+  font-size: 35px;
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 10px 28px;
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
@@ -68,6 +69,7 @@ input {
 .lineOneContainer {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 40px;
 }
 
 .girl {
@@ -91,7 +93,7 @@ input {
   display: flex;
   flex-wrap: wrap;
   width: 50%;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .boyBee {
