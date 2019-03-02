@@ -26,7 +26,7 @@ h1, h2, h3 {
 h1 {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-family: 'Niconne', cursive;
   font-weight: lighter;
   font-size: 55px;
@@ -37,7 +37,7 @@ h2 {
   font-size: 70px;
   font-family: 'Arizonia', cursive;
   font-weight: 100;
-  margin-top: -35px; 
+  margin-top: -55px; 
 }
 
 h3 {
@@ -49,6 +49,20 @@ h3 {
 
 input {
   font-size: 56px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.girlInput {
+  background-color: #feb7c2;
+}
+
+.boyInput {
+  background-color: #a0e1f0;
 }
 
 .lineOneContainer {
@@ -59,13 +73,13 @@ input {
 .girl {
   color: #feb7c2;
   font-size: 130px;
-  padding: 0, 8px;
+  margin-right: 10px;
 }
 
 .boy {
   color: #a0e1f0;
   font-size: 130px;
-  padding: 0, 8px;
+  margin-left: 10px;
 }
 
 .container {
@@ -82,12 +96,12 @@ input {
 
 .boyBee {
   padding: 5px;
-  max-height: 50px;
+  max-height: 100px;
 }
 
 .girlBee {
   padding: 5px;
-  max-height: 50px;
+  max-height: 100px;
 }
 
 .bee {
