@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gender Vote</title>
+  <link rel ="stylesheet" type="text/css" href="/main3.css" />
+  <link href="https://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+</head>
+<body>
+  <div class="lineOneContainer">
+      <img th:src="@{/images/bee.png}" class="bee" />
+      <h1><span class="girl">She</span> or <span class="boy">He</span></h1>
+      <img th:src="@{/images/bee.png}" class="bee" />
+  </div>
+  <div>
+      <h2>cast your vote</h2>
+  </div>
+  <div>
+      <h3>WHAT WILL I "BEE"?</h3>
+  </div>
+  <div class="container">
+    <div class="beeContainer">
+        <img th:src="@{/images/girl-bee.png}" th:each="girl: ${girls}" class="girlBee" />
+    </div>
+    <div class="beeContainer">
+        <img th:src="@{/images/boy-bee.png}" th:each="boy: ${boys}" class="boyBee" />
+    </div>
+  </div>
+  <div class="buttonContainer">
+    <form method="post" action="/votes/girl">
+      <p><input type="submit" value="It's a Girl!" /></p>
+    </form>
+    <form method="post" action="/votes/boy">
+      <p><input type="submit" value="It's a Boy!" /></p>
+    </form>
+  </div>  
+</body>
+</html>

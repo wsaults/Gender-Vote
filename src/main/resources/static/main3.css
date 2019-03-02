@@ -1,0 +1,100 @@
+body {
+  color: white;
+  background-color: #373738;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+tr {
+  display: flex;
+  width: 10%;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Niconne', cursive;
+  font-weight: lighter;
+  font-size: 55px;
+}
+
+h2 {
+  color: #d9bd78;
+  font-size: 70px;
+  font-family: 'Arizonia', cursive;
+  font-weight: 100;
+  margin-top: -35px; 
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 50px;
+  font-family: 'Acme', sans-serif;
+  letter-spacing: 2px;
+}
+
+input {
+  font-size: 56px;
+}
+
+.lineOneContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.girl {
+  color: #feb7c2;
+  font-size: 130px;
+  padding: 0, 8px;
+}
+
+.boy {
+  color: #a0e1f0;
+  font-size: 130px;
+  padding: 0, 8px;
+}
+
+.container {
+  display: flex;
+  border-top: 1px solid white;
+}
+
+.beeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-top: 5px;
+}
+
+.boyBee {
+  padding: 5px;
+  max-height: 50px;
+}
+
+.girlBee {
+  padding: 5px;
+  max-height: 50px;
+}
+
+.bee {
+  max-height: 200px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+}

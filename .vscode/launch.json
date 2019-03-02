@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-GenderVoteApplication<gender-vote>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.wsaults.gendervote.GenderVoteApplication",
+      "projectName": "gender-vote",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-GenderVoteApplication<gendervote>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.wsaults.gendervote.GenderVoteApplication",
+      "projectName": "gendervote",
+      "args": ""
+    }
+  ]
+}
