@@ -10,22 +10,22 @@
 </head>
 <body>
   <div class="lineOneContainer">
-      <img th:src="@{/images/bee.png}" class="bee" />
-      <h1><span class="girl">She</span> or <span class="boy">He</span></h1>
-      <img th:src="@{/images/bee.png}" class="bee" />
+      <img th:src="@{/images/girl-choice.png}" class="bee" />
+      <h1><span class="girl">Bows</span> or <span class="boy">Boots</span></h1>
+      <img th:src="@{/images/boy-choice.png}" class="bee" />
   </div>
   <div>
       <h2>cast your vote</h2>
   </div>
   <div>
-      <h3>WHAT WILL I "BEE"?</h3>
+      <h3>WHAT WILL I BE?</h3>
   </div>
   <div class="container">
     <div class="beeContainer">
-        <img th:src="@{/images/girl-bee.png}" th:each="girl: ${girls}" class="girlBee" />
+        <img th:src="@{/images/girl-choice.png}" th:each="girl: ${girls}" class="girlBee" />
     </div>
     <div class="beeContainer">
-        <img th:src="@{/images/boy-bee.png}" th:each="boy: ${boys}" class="boyBee" />
+        <img th:src="@{/images/boy-choice.png}" th:each="boy: ${boys}" class="boyBee" />
     </div>
   </div>
   <div class="buttonContainer">
