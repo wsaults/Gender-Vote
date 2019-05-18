@@ -20,7 +20,8 @@ public class DataSourceConfiguration {
   }
 
   @Bean
-  @ConfigurationProperties(DataSourceProperties.PREFIX)
+  // DataSourceProperties.PREFIX
+  @ConfigurationProperties(prefix="spring.datasource")
   public DataSource dataSource() {
     return cloud().getSingletonServiceConnector(DataSource.class, null);
   }
