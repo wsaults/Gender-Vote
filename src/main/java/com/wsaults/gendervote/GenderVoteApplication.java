@@ -1,6 +1,6 @@
 package com.wsaults.gendervote;
 
-import javax.sql.DataSource;
+import javax.activation.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
