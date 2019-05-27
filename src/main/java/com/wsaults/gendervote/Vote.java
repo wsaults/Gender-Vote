@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import lombok.Data;
 
 @Data
-@Document
+@Document(collection="votes")
 public class Vote {
   @Id final private String id;
   final private String gender;
